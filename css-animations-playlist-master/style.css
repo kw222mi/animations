@@ -73,10 +73,10 @@ html,body {
   animation-name: drive;
   animation-duration: 3s;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+ animation-iteration-count: infinite;
 }
 
 @keyframes drive {
-  from{transform: translateX(0);}
-  to{transform: translateX(700px);}
+  from{transform: translateX(-200px);}
+  to{transform: translateX(1550px);}
 }
